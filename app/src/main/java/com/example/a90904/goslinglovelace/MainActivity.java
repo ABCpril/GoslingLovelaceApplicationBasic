@@ -1,6 +1,7 @@
 package com.example.a90904.goslinglovelace;
 
 import android.content.res.Configuration;
+import android.os.LocaleList;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
@@ -18,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
         textView.setMovementMethod(ScrollingMovementMethod.getInstance());
 
     }
+
+
 
     @Override
     public void onConfigurationChanged(Configuration newConfig) {

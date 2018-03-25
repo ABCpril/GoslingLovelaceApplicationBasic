@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical">
 
 
@@ -15,12 +15,12 @@
 
         <TextView
             android:id="@+id/textView1"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            android:gravity="center"
             android:layout_weight="0"
             android:paddingRight="30dp"
-            android:text="James Gosling"
+            android:text="@string/nameforman"
             android:textSize="30dp" />
 
 
@@ -38,33 +38,28 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal"></LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="301dp"
         android:orientation="horizontal">
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="295dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:paddingLeft="0dp"
             android:layout_weight="1"
-            android:paddingRight="0dp"
+            android:paddingRight="100dp"
             android:src="@drawable/ja" />
 
         <TextView
             android:id="@+id/content2"
             android:layout_width="250dp"
             android:layout_height="match_parent"
+            android:layout_gravity="right"
+
             android:fadeScrollbars="false"
             android:maxLines="9"
             android:scrollbars="vertical"
-            android:text="James Arthur Gosling, OC (born May 19, 1955) is a Canadian computer scientist, best known as the founder and lead designer behind the Java programming language.
-
-Gosling initially became known as the author of Gosling Emacs, and also invented the windowing system NeWS, which lost out to X Window because Sun did not give it an open source license. He is generally credited with having invented the Java programming language in 1994. He created the original design of Java and implemented the language's original compiler and virtual machine. Gosling traces the origins of the approach to his early graduate-student days, when he created a p-code virtual machine for the lab's DEC VAX computer, so that his professor could run programs written in UCSD Pascal. In the work leading to Java at Sun, he saw that architecture-neutral execution for widely distributed programs could be achieved by implementing a similar philosophy: always program for the same virtual machine.
-"
+            android:text="@string/textgos"
             android:textSize="20dp" />
 
 
