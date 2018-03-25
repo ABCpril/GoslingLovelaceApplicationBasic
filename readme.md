@@ -1,3 +1,3 @@
 #GoslingLovelace Basic Application
 
-![Demo](display/demo.gif)
+![Demo](display/gos.gif)
